@@ -1,10 +1,10 @@
 
 ## Serviços AWS utilizados:
 
-Amazon Cognito
-Amazon DynamoDB
-Amazon API Gateway
-AWS Lambda
+* Amazon Cognito
+* Amazon DynamoDB
+* Amazon API Gateway
+* AWS Lambda
 
 ## Etapas do desenvolvimento:
 
@@ -46,7 +46,7 @@ AWS Lambda
 - Escolha "Authorization" como Token Source.
 No Método Request, selecione o autorizador criado para a autorização.
 
-7. No POSTMAN
+8. No POSTMAN
 
 - Selecione a solicitação criada para inserir um item e vá para a seção "Authorization". Defina o tipo como "Bearer Token" e insira o token copiado.
 - Clique em "Send" para enviar a solicitação e testar a API.
